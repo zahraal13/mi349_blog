@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<body>
+
     <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
+<link rel="stylesheet" href="style.css">
 <h3>Contact Info</h3>
    <p> Name: Zahra Al-Sultan</p>
     <p>Email: alsult11@msu.edu</p>
-    <p><label for="pet-select">Reason for contacting:</label></p>
+    <p><label for="pet-select">Reason for contacting:</label> <select name="pet-select" id="pet-select"></select></p>
 
         <select name="reason" id="reason-select">
             <option value="">--Please choose an option--</option>
@@ -16,15 +17,14 @@
 
         </select>
         
-    <form action="" method="get" class="form-example">
+    <form action="get" method="get" class="form-example">
         <div class="form">
           <label for="Comment">Enter a comment: </label>
-          <input type="Comment" name="comment" id="Comment" required>
+          <input type="submit" name="comment" id="Comment" required>
         </div>
         <div>
-          <input type="Submit" value="Submit!">
+          <input type="submit" value="Submit!">
         </div>
-      </form></p>
+      </form>
 
-</body>
 </html>
