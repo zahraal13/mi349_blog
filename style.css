@@ -35,3 +35,15 @@ border-top: 1px dotted #ccc;
 botder-bottomg: 1px dotted #ccc;
 
 }
+
+article {
+background: #999;
+padding: 20px;
+margin: 20px;
+
+}
+
+section {
+display: flex;
+
+}
