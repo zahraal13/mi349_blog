@@ -32,6 +32,12 @@ border: 1px solid black;
 border-collapse: collapse;
 
 }
+
+section{
+background: #ccc;
+display: flex;
+
+}
 p{
 
 
@@ -58,12 +64,25 @@ color: black;
 
 
 article {
+    border-top: 5px solid #e3e3e3;
+    border-bottom: 5px solid #e3e3e3;
+    background-color: aquamarine;
+    text-align: center;
 padding: 20px;
 margin: 20px;
 
 }
 
-section {
-display: flex;
+article:nth-of-type(1) {
+    flex: 1;
+}
+
+article:nth-of-type(2) {
+    flex: 1;
+}
+
+#sweetbeanpaste{
+height: 100px;
+width: 100px;
 
 }
